@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Preencha o formulário de inscrição</h1>
+    <form action="" name="questao4" method="get">
+        <label for="nome">Seu Nome:</label><br>
+        <input type="text" name="nome" placeholder="Ex: Meu nome e Sobrenome" required><br><br>
+        <label for="telefone">Seu Telefone:</label><br>
+        <input type="tel" name="telfone" placeholder=" Ex: 34 999999999" required><br><br>
+        <label for="e-mail">Seu E-mail:</label><br>
+        <input type="email" name="e-mail" placeholder="Ex: meuemail@exemplo.com.br" required><br><br>
+        <label for="endereço">Endereço:</label><br>
+        <input type="text" name="rua" placeholder="Ex: Rua Neymar da Silva Santos Jr.">
+        <select id="UF" name="Estados">
+            <option value="">Selecione o Estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+        <input type="text" name="CEP" placeholder="Ex: XXXXX-XXX"><br><br>
+        <label for="data">Data de nascimento:</label><br>
+        <input type="date" name="data-de-nascimento"><br><br>
+        <label for="area">Area do Arquivo:</label><br>
+        <input type="checkbox" name="arquivo">Humanas
+        <input type="checkbox" name="arquivo">Exatas <br><br>
+        <label for="curso">Curso:</label><br>
+        <select name="curso" id="curso4">
+            <option value="TINF">Técnico em Informática</option>
+            <option value="TADM">Técnico em Administração</option>
+            <option value="TELE">Técnico em Eletrônica</option>
+            <option value="TCON">Técnico em Contabilidade</option>
+        </select><br><br>
+        <label for="area">Arquivo a ser Enviado:</label><br>
+        <input type="file" name="arquivo"><br><br>
+        <button>Enviar</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
